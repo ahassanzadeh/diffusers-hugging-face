@@ -105,6 +105,9 @@ def log_validation(args, unet, vae, accelerator, weight_dtype, epoch, is_final_v
         variant=args.variant,
         torch_dtype=weight_dtype,
     )
+    
+    pipeline.load_lora_weights(".", weight_name="prod-lora.safetensors")
+
     if not is_final_validation:
         pipeline.unet = accelerator.unwrap_model(unet)
     else:
