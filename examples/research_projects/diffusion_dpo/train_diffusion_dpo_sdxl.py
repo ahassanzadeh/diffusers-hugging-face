@@ -63,10 +63,10 @@ logger = get_logger(__name__)
 
 
 VALIDATION_PROMPTS = [
-    "portrait photo of a girl, photograph, highly detailed face, depth of field, moody light, golden hour, style by Dan Winters, Russell James, Steve McCurry, centered, extremely detailed, Nikon D850, award winning photography",
-    "Self-portrait oil painting, a beautiful cyborg with golden hair, 8k",
-    "Astronaut in a jungle, cold color palette, muted colors, detailed, 8k",
-    "A photo of beautiful mountain with realistic sunset and blue lake, highly detailed, masterpiece",
+    "A head-shot of Michelle Khare, wearing FBI Academy gear, handcuffed with a stern-faced instructor towering behind her, against a plain white background creating a stark contrast, highlighting the intensity of the experience",
+    "A popular YouTube creator spends the day swimming with sharks, performing thrilling and dangerous feats with an eager and cheerful attitude despite the danger of the tasks.",
+    "a sail boat with a big fan blowing the sail with 1 person on the boat pointing to the sail and fan",
+    "An action shot of Michelle Khare engaged in a simulated high-intensity FBI training exercise, sweat glistening, against a stark white wall, with hints of  yellow caution tape adding contrast",
 ]
 
 
